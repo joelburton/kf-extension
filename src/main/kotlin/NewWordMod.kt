@@ -4,7 +4,7 @@ import kf.dict.Word
 object NewWordMod: IWordModule {
     override val name = "joel.NewWordMod"
     override val description = ""
-    override val words = arrayOf<IWord>(
+    override val words = arrayOf<Word>(
         Word("foofoo", fn=::w_foofoo),
         Word("barbar", fn=::w_barbar),
     )

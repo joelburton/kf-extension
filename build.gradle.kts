@@ -14,6 +14,6 @@ repositories {
 }
 dependencies {
     testImplementation(kotlin("test"))
-    implementation(files("/Users/joel/src/kf/src/foo/kf-public.jar"))
+    implementation(files("/Users/joel/src/kf/build/libs/kf-1.0-interfaces.jar"))
 }
 
